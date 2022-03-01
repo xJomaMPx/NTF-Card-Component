@@ -24,7 +24,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://xjomampx.github.io/QR-component-main/)
+- Solution URL: [Add solution URL here](https://xjomampx.github.io/NTF-Card-Component/)
 
 
 ## My process

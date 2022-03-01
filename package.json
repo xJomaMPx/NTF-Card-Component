@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sass --watch src/sass/main.scss public/main.css"
   },
-  "author": "",
+  "author": "xJomaMPx",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.9"
