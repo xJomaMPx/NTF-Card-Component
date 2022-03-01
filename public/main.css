@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #0d192b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+[data-main=main-container] {
+  width: 375px;
+  height: auto;
+  padding: 24px;
+  background-color: #14253d;
+  border-radius: 15px;
+}
+[data-main=main-container] img {
+  width: 100%;
+  border-radius: 10px;
+}
+[data-main=main-container] figcaption h1 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: white;
+}
+[data-main=main-container] figcaption h1:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+[data-main=main-container] figcaption p {
+  margin-bottom: 24px;
+  font-size: 18px;
+  color: #8bacda;
+}
+[data-main=main-container] [data-data] {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+[data-main=main-container] [data-coin] > * {
+  vertical-align: middle;
+}
+[data-main=main-container] [data-time] > * {
+  vertical-align: middle;
+}
+[data-main=main-container] [data-coin] img {
+  width: auto;
+}
+[data-main=main-container] [data-coin] p {
+  color: #00fff7;
+  display: inline-block;
+}
+[data-main=main-container] [data-time] img {
+  width: auto;
+}
+[data-main=main-container] [data-time] p {
+  color: #8bacda;
+  display: inline-block;
+}
+[data-main=main-container] hr {
+  position: relative;
+  border: 1px solid #8bacda;
+  margin: 20px 0;
+  opacity: 0.1;
+}
+[data-main=main-container] [data-footer=footer] > * {
+  vertical-align: middle;
+}
+[data-main=main-container] [data-footer=footer] {
+  width: 100%;
+  height: auto;
+}
+[data-main=main-container] [data-footer=footer] img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: auto;
+}
+[data-main=main-container] [data-footer=footer] p {
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 18px;
+  color: #8bacda;
+}
+[data-main=main-container] [data-footer=footer] p span {
+  color: white;
+}
+[data-main=main-container] [data-footer=footer] p span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
